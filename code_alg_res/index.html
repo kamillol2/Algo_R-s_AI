@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithme De Résolution (By Kamil Ali)</title>
+    <link rel="stylesheet" href="style_alg_res.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Algorithme De Résolution</h1>
+        <div class="input-buttons">
+            <button id="btnP">P</button>
+            <button id="btnQ">Q</button>
+            <button id="btnOpenParen">(</button>
+            <button id="btnCloseParen">)</button>
+            <button id="btnNegation">~</button>
+            <button id="btnAnd">⋀</button>
+            <button id="btnOr">v</button>
+            <button id="btnImplication">-&gt;</button>
+        </div>
+        <div class="input">
+            <input type="text" id="input" placeholder="Donner Une Formule">
+            <button id="btnSubmit" onclick="resolve()">Submit</button>
+        </div>
+        <div class="results">
+            <h2>Résultat :</h2>
+            <ul id="resultsList"></ul>
+        </div>
+    </div>
+
+    <script src="script_alg_res.js"></script>
+
+</body>
+</html>
